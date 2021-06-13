@@ -13,7 +13,7 @@ public class Day05_xPathLocater01 {
                 "C:/Users/Toshiba/Documents/selenium depende/Drivers/chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
         driver.manage().window().maximize();
 
         driver.get("http://a.testaddressbook.com");
